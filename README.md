@@ -1,4 +1,4 @@
-# Shell Scripting & Practice with `Git` 
+# Shell Scripting & Practice with `git` 
 
 ## This repository includes some basic Shell Scripting practice programs that contain concepts introduced in the COMP290 tools course.
 
