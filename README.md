@@ -19,3 +19,4 @@ The program takes one argument and then read lines from standard input while pri
 ### `make`
 
 This project was a practice exercise which consisted in creating a simple `Makefile` for a C programming project.
+
