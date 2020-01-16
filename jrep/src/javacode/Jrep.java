@@ -1,4 +1,4 @@
-package comp290;
+package javacode;
 
 import java.util.Scanner;
 
