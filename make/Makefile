@@ -1,7 +1,3 @@
-# Author: Ernesto Garcia Vazquez
-# PID: 730288977
-# I pledge the UNC and COMP290 Honor Code.
-
 # .PHONY targets and helper variables
 .PHONY: dirs run clean
 OBJS=obj/stack.o obj/main.o
