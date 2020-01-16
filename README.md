@@ -1,6 +1,8 @@
-# Shell Scripting & Git
+# Shell Scripting & Practice with `Git`
 
-## `did-duke-win`
+## This repository includes some basic Shell Scripting practice programs that contain concepts introduced in the COMP290 tools course.
+
+### `did-duke-win`
 
 The usage of the shell script found in this project is:
 
@@ -8,15 +10,12 @@ The usage of the shell script found in this project is:
 
 Running the command with an option of `--help` will display its usage.
 
-Running the command without the optional `[test-url]` will scrape <https://diddukewin.com> to determine the outcome of Duke's last basketball game. In the case of a win, the command will print "Yes.", and in the case of a loss it will print "No!" No other output is expected and no new files will be left on the system upon completion of the script.
+### jrep
 
-If a `[test-url]` is provided, then the script will check it instead. To links you can test the script with from Internet Archive are:
+This project implements both a Java and a Shell Script program in a simple command-line utility program named `jrep`. Its implementation is similar to `grep`, however, it only matches against exact matching strings.
 
-Win: <http://web.archive.org/web/20190130054918/http://www.diddukewin.com/>
+The program takes one argument and then read lines from standard input while printing lines that contain the search string.
 
-Loss: <http://web.archive.org/web/20190401020725/https://www.diddukewin.com/> 
+### make
 
-
-# Makefile Practice
-
-This project is an exercise in creating a simple `Makefile` for a C programming project.
+This project was a practice exercise which consisted in creating a simple `Makefile` for a C programming project.
