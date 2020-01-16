@@ -1,0 +1,37 @@
+#!/bin/bash 
+
+url=${1}
+
+if [ "${url}" = "--help" ]
+then
+    # Displays usage of did-duke-win
+    echo "Usage: did-duke-win [test-url]"
+    exit 1
+fi
+
+if [ -z "${url}" ]
+then
+    # Displays winning status based on current live status 
+    curl -s https://diddukewin.com | grep -q NO
+    if [ "${?}" = "0" ]
+    then
+       echo "No!"
+    else
+       echo "Yes."
+    fi
+    exit 1
+fi
+
+if [ ! "${url}" = "--help" ]
+then
+    # Displays historical win/loss
+    curl -s ${1} | grep -q YES
+    if [ "${?}" = "0" ]
+    then
+        echo "Yes."
+    else
+        echo "No!"
+    fi
+    exit 1
+fi
+
